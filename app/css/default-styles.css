@@ -1,0 +1,83 @@
+/* personal default styles*/
+html {
+    font-size: 12px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    transition: .3s linear;
+}
+
+a:hover {
+    color: rgba(17, 141, 168, 1);
+}
+
+.page {
+    background: #1E252B;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 130%;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.container {
+    padding: 0px 110px;
+}
+
+.button__inner {
+    display: flex;
+}
+
+.button {
+    display: flex;
+    text-align: center;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    line-height: 150%;
+    transition: .3s linear;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.78);
+    cursor: pointer;
+}
+
+.button:hover {
+    color: gray;
+}
+
+.form {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.textform {
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #191919;
+    border: 1px solid #191919;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 2rem;
+    line-height: 120%;
+    padding: 28px 20px;
+    margin-top: 20px;
+}
+
+
+
+.textform::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
